@@ -42,14 +42,14 @@
 /*----font awesome -------*/
 @import url('../fonts/font-awesome/css/font-awesome.min.css');
 /*----camera-slider---*/
-@import url('../vendor/Camera-master/css/camera.css');
+@import url('../vendor/camera/css/camera.css');
 /*----owl-carousel css----*/
 @import url('../vendor/owl-carousel/owl.carousel.css');
 @import url('../vendor/owl-carousel/owl.theme.css');
 /*-------- animated css ------*/
-@import url('../vendor/WOW-master/css/libs/animate.css');
+@import url('../vendor/wow/css/libs/animate.css');
 /*----------- Fancybox css -------*/
-@import url('../vendor/fancybox/dist/jquery.fancybox.min.css');
+@import url('../vendor/fancybox/jquery.fancybox.min.css');
 /*--------- flat-icon ---------*/
 @import url('../fonts/icon/font/flaticon.css');
 
