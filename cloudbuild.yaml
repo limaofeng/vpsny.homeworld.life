@@ -20,7 +20,7 @@ steps:
 images:
   - "${_USERNAME}/${_REPO_NAME}"
 secrets:
-  - kmsKeyName: projects/vpser-d4aae/locations/global/keyRings/keyrings-registry/default/key-registry
+  - kmsKeyName: projects/vpser-d4aae/locations/global/keyRings/default/cryptoKeys/default
     secretEnv:
       PASSWORD: CiQAFtIQkdGbspNF0cUL1xJ6JU7CP+PwFShdhYnDWcyxWoHhiiwSNAAdbQI+xRRRcIYh+TU3V6E1igTvUPslLJ9/8lgL1JmMO11OYEegnlkKRh17L5PI+FuRx+4=
       PM2_PUBLIC_KEY: CiQAFtIQkbKXLjSMZFHGohTzzBAzpu6xfnXb4MHqgUjZqD4s3rgSRQAdbQI+keQs0C9VIliUwRFtF4RcF8DoQj//yeJOjxI7wmkx1zKudP4vvXG8V52kKF9qAkVoKqyJ9trf97EJY9AGPyDDug==
