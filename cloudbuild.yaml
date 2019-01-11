@@ -20,11 +20,11 @@ steps:
 images:
   - "${_USERNAME}/${_REPO_NAME}"
 secrets:
-  - kmsKeyName: projects/gothic-depth-219813/locations/global/keyRings/keyrings-registry/cryptoKeys/key-registry
+  - kmsKeyName: projects/vpser-d4aae/locations/global/keyRings/keyrings-registry/default/key-registry
     secretEnv:
-      PASSWORD: CiQAnu4BO652K9j8pPr4slt85qEDUQDwTV7/+aJzpszQWiw9kIkSNAAlH5Y8ha+J4utLt2c2rKL0kC5sjJzsQAmtBgYDUqKOwW+dYMdBvIrM4klXa96qf0WAiuY=
-      PM2_PUBLIC_KEY: CiQAnu4BO5+fUZCgC+BQBvaMpHH9BRjqiGrozRisMqyvwi+iRF0SOAAlH5Y8offjGlca3UcdgahlFFx0g4VNKtkT4aa4p3QpYVRoCM1L5ZcEaD32G8UcBMvoibz1KMUj
-      PM2_SECRET_KEY: CiQAnu4BO0R43F3ryLF8v1fp2B9ZtXRQk69aBri/P8pnvZaV/uASNwAlH5Y8H+2lwsLFoGoJHwAqXsG2zXkHAFYQ2xOKoo7+R2I8JD8UHD/ii7fsH9KTYOrLPfOsU+I=
+      PASSWORD: CiQAFtIQkdGbspNF0cUL1xJ6JU7CP+PwFShdhYnDWcyxWoHhiiwSNAAdbQI+xRRRcIYh+TU3V6E1igTvUPslLJ9/8lgL1JmMO11OYEegnlkKRh17L5PI+FuRx+4=
+      PM2_PUBLIC_KEY: CiQAFtIQkSPKdPG1x8ttt+IfiVSGNx/Ds206BnNDNrcZ6WQ0ncoSNwAdbQI+MehsO0xb3QeDhKtPBRg6rYvWbbjWS/KiQM8WHMiuOtNJzDedsLD8SaSUnSKQApZ1bAw=
+      PM2_SECRET_KEY: CiQAFtIQkbKXLjSMZFHGohTzzBAzpu6xfnXb4MHqgUjZqD4s3rgSRQAdbQI+keQs0C9VIliUwRFtF4RcF8DoQj//yeJOjxI7wmkx1zKudP4vvXG8V52kKF9qAkVoKqyJ9trf97EJY9AGPyDDug==
 substitutions:
   _USERNAME: limaofeng
   _REPO_NAME: www.vpsny.app
