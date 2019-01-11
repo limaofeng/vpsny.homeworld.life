@@ -1,15 +1,14 @@
 steps:
-  - name: "gcr.io/cloud-builders/npm"
-    args: ["install"]
-  - name: "gcr.io/cloud-builders/npm"
-    args: ["run", "build"]
+  # - name: "gcr.io/cloud-builders/npm"
+  #   args: ["install"]
+  # - name: "gcr.io/cloud-builders/npm"
+  #   args: ["run", "build"]
   - name: "gcr.io/cloud-builders/docker"
     entrypoint: "bash"
-    args:
-      [
-        "-c",
-        "docker build --build-arg PM2_PUBLIC_KEY=$$PM2_PUBLIC_KEY --build-arg PM2_SECRET_KEY=$$PM2_SECRET_KEY -t ${_USERNAME}/${_REPO_NAME} .",
-      ]
+    args: ["-c", "docker build --help"]
+  - name: "gcr.io/cloud-builders/docker"
+    entrypoint: "bash"
+    args: ["-c", "docker build --build-arg \"PM2_PUBLIC_KEY=$$PM2_PUBLIC_KEY\" --build-arg \"PM2_SECRET_KEY=$$PM2_SECRET_KEY\" -t ${_USERNAME}/${_REPO_NAME} ."]
     secretEnv: ["PM2_PUBLIC_KEY", "PM2_SECRET_KEY"]
   - name: "gcr.io/cloud-builders/docker"
     entrypoint: "bash"
