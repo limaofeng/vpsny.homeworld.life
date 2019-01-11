@@ -27,4 +27,4 @@ secrets:
       PM2_SECRET_KEY: CiQAnu4BO0R43F3ryLF8v1fp2B9ZtXRQk69aBri/P8pnvZaV/uASNwAlH5Y8H+2lwsLFoGoJHwAqXsG2zXkHAFYQ2xOKoo7+R2I8JD8UHD/ii7fsH9KTYOrLPfOsU+I=
 substitutions:
   _USERNAME: limaofeng
-  _REPO_NAME: vpsny.homeworld.life
+  _REPO_NAME: www.vpsny.app
